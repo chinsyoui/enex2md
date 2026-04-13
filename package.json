@@ -1,0 +1,27 @@
+{
+  "name": "enex2md",
+  "version": "1.0.0",
+  "description": "Convert Evernote .enex export files to Markdown files",
+  "type": "module",
+  "bin": {
+    "enex2md": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "sax": "^1.4.1",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/sax": "^1.2.7",
+    "@types/turndown": "^5.0.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
