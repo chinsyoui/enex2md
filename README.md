@@ -9,7 +9,6 @@ Convert Evernote export file (`.enex`) to Markdown files, with attachments and a
 ## Install & Build
 
 ```bash
-cd tools/enex2md
 npm install
 npm run build
 ```
